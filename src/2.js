@@ -1,5 +1,5 @@
 (() => {
-  const hashTrigger = '#Prudence';
+  const hashTrigger = '#jM0NTY3ODkxMDExMTIxMzE0MTU';
   const targetHTML = '2.html';
   const containerId = 'image-container';
 
