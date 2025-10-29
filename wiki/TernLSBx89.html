@@ -141,17 +141,17 @@
 <h2><span class="mw-headline" id="Interpreter">Interpreter</span></h2>
 <p>Currently, the esolang has a <a href="/wiki/Python" title="Python">Python</a> interpreter (which is also an encoder for writing programs in the language), written by the author of the language (<a href="/wiki/User:None1" title="User:None1">User:None1</a>), it requires the Python Imaging Library.
 </p>
-<pre>#Usage:
+<pre>
 #Usage:
-#python tlsb.py <filename> - interpret a TernLSBx89 program
-#python tlsb.py <inputfn> <brainfuckfn> <outputfn> - Encodes brainfuck into an image file to make it a TernLSBx89 program
+#python tlsb.py <filename> - interpret a TernLSB program
+#python tlsb.py <inputfn> <brainfuckfn> <outputfn> - Encodes brainfuck into an image file to make it a TernLSB program
 import sys
 from PIL import Image
 def bf(code):
     s1=[]
     s2=[]
     matches={}
-    tape=[0]*101054970
+    tape=[0]*1000000
     for i,j in enumerate(code):
         if j=='[':
             s1.append(i)
@@ -228,4 +228,5 @@ if __name__=='__main__':
 </body>
 
 </html>
+
 
