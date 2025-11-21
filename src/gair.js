@@ -1,5 +1,5 @@
 (() => {
-  const hashTrigger = '#Gair';
+  const hashTrigger = '#Cluster_3';
   const targetHTML = 'lang.html';
   const containerId = 'image-container';
 
